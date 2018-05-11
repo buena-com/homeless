@@ -2,7 +2,7 @@
   "name": "validator",
   "version": "1.0.0",
   "description": "A collection of field validation methods",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --no-cache --watch --config=../../jest.config.js",
     "prepare": "tsc -p tsconfig.build.json"
