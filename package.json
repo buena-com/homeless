@@ -1,4 +1,11 @@
 {
+	"name": "homeless",
+	"description": "A collection of reuasble project agnostic typescript packages.",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://git@github.com:home-ht/homeless.git"
+	},
 	"private": true,
 	"scripts": {
 		"test": "jest --no-cache --coverage",
