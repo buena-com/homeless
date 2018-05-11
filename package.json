@@ -9,7 +9,7 @@
 	"private": true,
 	"scripts": {
 		"test": "jest --no-cache --coverage",
-		"prepare": "lerna run prepare"
+		"build": "lerna run build"
 	},
 	"workspaces": [
 		"packages/*"
