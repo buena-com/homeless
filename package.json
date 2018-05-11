@@ -9,7 +9,7 @@
 	"private": true,
 	"scripts": {
 		"test": "jest --no-cache --coverage",
-		"postinstall": "lerna run prepare"
+		"prepare": "lerna run prepare"
 	},
 	"workspaces": [
 		"packages/*"

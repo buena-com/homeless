@@ -20,9 +20,6 @@ node_modules
 # Optional npm cache directory
 .npm
 
-# Distribution
-lib
-
 # ide configs
 .idea
 .vscode
