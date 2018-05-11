@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of field validation methods",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --no-cache --watch --config=../../jest.config.js",
     "prepare": "tsc -p tsconfig.build.json"

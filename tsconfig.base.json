@@ -5,9 +5,10 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "strict": true,
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": true
   },
   "exclude": [
     "./node_modules",
