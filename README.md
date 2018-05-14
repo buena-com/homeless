@@ -31,13 +31,13 @@ $ yarn test && yarn build
 ```
 
 ## Usage
-To install and use this monorepo's packages add it to your project using
+To install and use this monorepo's modules add them to your project using
 ```sh
-$ yarn add home-ht/homeless
+$ yarn add @home-ht/<module-name>
 ```
 and import the package like this:
 ```typescript
-import { isValidPhonenumber } from 'homeless/packages/validator';
+import { isValidPhonenumber } from '@home-ht/validator';
 ```
 ## Packages
 
