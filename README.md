@@ -2,7 +2,7 @@
 A collection of reuasble project agnostic typescript packages.
 
 ## Development
-After cloning this repository run `lerna bootstrap` to install all dependencies
+After cloning this repository run `npm install && lerna bootstrap` to install all dependencies
 
 **Add dependencies**
 To add a (--dev) dependency to all packages run:
@@ -19,16 +19,13 @@ To add a new package create a new folder inside `/packages` and create a package
 ```sh
 $ yarn init
 ```
-
+Make sure to name the module `@home-ht/<module-name>` so that it will be added to the home-ht npm scope
 ## Distribution
 After making changes or adding a packages you can update the monorepo with:
 ```sh
-$ lerna publish --skip-npm
+$ lerna publish
 ```
-this wil bump the version and create a tag + commit. Before doing this always run the following in the root folder:
-```sh
-$ yarn test && yarn build
-```
+this wil bump the version, create a tag + commit and publish all changed packages to npm.
 
 ## Usage
 To install and use this monorepo's modules add them to your project using
