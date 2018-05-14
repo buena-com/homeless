@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --no-cache --watch --config=../../jest.config.js",
-    "prepublishOnly": "build",
+    "perpare": "build",
     "build": "rm -rf lib && tsc -p tsconfig.build.json"
   },
   "author": "Sanjay Twisk",
