@@ -1,6 +1,6 @@
 {
   "name": "@home-ht/validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of field validation methods",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
