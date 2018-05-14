@@ -33,7 +33,7 @@ $ yarn test && yarn build
 ## Usage
 To install and use this monorepo's packages add it to your project using
 ```sh
-$ yarn add git+ssh://git@github.com:home-ht/homeless.git
+$ yarn add home-ht/homeless
 ```
 and import the package like this:
 ```typescript
