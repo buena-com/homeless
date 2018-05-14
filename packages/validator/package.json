@@ -4,6 +4,9 @@
   "description": "A collection of field validation methods",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest --no-cache --watch --config=../../jest.config.js",
     "build": "rm -rf lib && tsc -p tsconfig.build.json"
