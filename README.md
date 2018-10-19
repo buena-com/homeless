@@ -2,7 +2,7 @@
 A collection of reuasble project agnostic typescript packages.
 
 ## Development
-After cloning this repository run `npm install && lerna bootstrap` to install all dependencies
+After cloning this repository run `npm install && npm run lerna-bootstrap` to install all dependencies
 
 **Add dependencies**
 To add a (--dev) dependency to all packages run:
@@ -23,7 +23,7 @@ Make sure to name the module `@home-ht/<module-name>` so that it will be added t
 ## Distribution
 After making changes or adding a packages you can update the monorepo with:
 ```sh
-$ lerna publish
+$ npm run lerna-publish
 ```
 this wil bump the version, create a tag + commit and publish all changed packages to npm.
 
