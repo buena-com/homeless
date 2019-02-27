@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "lib": ["es2015.promise", "es5"],
     "baseUrl": "./packages",
     "paths": {
       "@homeless/*": ["./*/src"]
