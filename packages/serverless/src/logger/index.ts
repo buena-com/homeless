@@ -1,0 +1,1 @@
+export { lambdaLogger } from './logger';

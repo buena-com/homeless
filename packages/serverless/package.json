@@ -1,0 +1,36 @@
+{
+  "name": "@home-ht/serverless",
+  "version": "1.0.0",
+  "description": "A collection helper utils for serverless lambda function etc",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest --no-cache --watch --config=../../jest.config.js",
+    "prepare": "npm run build",
+    "build": "rm -rf lib && tsc -p tsconfig.build.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "getenv": "^0.7.0"
+  },
+  "devDependencies": {
+    "@home-ht/common": "^1.1.0",
+    "@types/aws-lambda": "^8.10.23",
+    "@types/getenv": "^0.7.0",
+    "@types/jest": "^22.2.3",
+    "@types/raven": "^2.5.3",
+    "aws-lambda": "^0.1.2",
+    "jest": "^22.4.3",
+    "serverless-sentry-lib": "^1.1.2",
+    "ts-jest": "^22.4.5"
+  },
+  "peerDependencies": {
+    "@home-ht/common": "^1.1.0",
+    "aws-lambda": "^0.1.2",
+    "raven": "^2.6.4",
+    "serverless-sentry-lib": "^1.1.2"
+  }
+}
