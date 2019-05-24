@@ -15,12 +15,12 @@
   "author": "Sanjay Twisk",
   "license": "MIT",
   "dependencies": {
-    "@types/google-libphonenumber": "^7.4.15",
-    "google-libphonenumber": "^3.1.5"
+    "@types/google-libphonenumber": "^7.4.17",
+    "google-libphonenumber": "^3.2.2"
   },
   "devDependencies": {
-    "@types/jest": "^22.2.3",
-    "jest": "^22.4.3",
-    "ts-jest": "^22.4.5"
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0"
   }
 }

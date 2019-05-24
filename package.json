@@ -8,15 +8,16 @@
   "private": true,
   "scripts": {
     "lerna-publish": "lerna publish",
-    "lerna-boostrap": "lerna bootstrap",
+    "lerna-bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
     "test": "jest --no-cache --coverage",
     "build": "lerna run build"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.9",
-    "jest": "^24.1.0",
-    "lerna": "^3.6.0",
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "lerna": "^3.14.1",
     "ts-jest": "^24.0.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.4000"
   }
 }

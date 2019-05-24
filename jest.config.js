@@ -6,13 +6,13 @@ module.exports = {
   ],
   globals: {
     "ts-jest": {
-      useBabelrc: false,
-      enableTsDiagnostics: true
+      babelConfig: false,
+      diagnostics: true
     }
   },
   transform: {
     "^.+\\.ts?$": "ts-jest"
   },
   testEnvironment: "node",
-  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(tsx?)$",
+  testRegex: "/__tests__/.*(test|spec)\.(tsx?)$",
 };
