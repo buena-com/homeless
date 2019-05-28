@@ -1,0 +1,1 @@
+export { parseBearerToken } from './tokenBearer';
