@@ -20,6 +20,7 @@ To add a new package create a new folder inside `/packages` and create a package
 $ yarn init
 ```
 Make sure to name the module `@home-ht/<module-name>` so that it will be added to the home-ht npm scope
+
 ## Distribution
 After making changes or adding a packages you can update the monorepo with:
 ```sh
